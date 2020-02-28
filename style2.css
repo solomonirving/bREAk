@@ -196,9 +196,18 @@ html {
 }
 .events-section-1{
     grid-area: section-1;
-    height: 60vh;
+    height: 80vh;
     width: 100%;
     background-image: url("wine-night.jpg");
+    background-position: 7% 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.news-section-1{
+    grid-area: section-1;
+    height: 80vh;
+    width: 100%;
+    background-image: url("high-rise.jpg");
     background-position: 7% 100%;
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -215,7 +224,7 @@ html {
             "section-2";
         height: 100%;
     }
-    .menu-section-1, .about-section-1, .events-section-1, .wedding-section-1{
+    .menu-section-1, .about-section-1, .events-section-1, .wedding-section-1, .news-section-1{
         grid-area: section-1;
         height: 110vh;
         width: 100%;
@@ -260,7 +269,7 @@ html {
 }
 
 @media screen and (max-width: 400px) {
-    .menu-section-1, .about-section-1, .events-section-1, .wedding-section-1{
+    .menu-section-1, .about-section-1, .events-section-1, .wedding-section-1, .news-section-1{
         grid-area: section-1;
         height: 40vh;
         width: 100%;
