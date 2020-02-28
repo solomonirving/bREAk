@@ -26,7 +26,7 @@ html {
     align-items: left;
     position: fixed;
     z-index: 1;
-    height: 50px;;
+    height: 50px;
     width: 100%;
     margin: 0;
     overflow: hidden;
@@ -114,9 +114,8 @@ li{
 }
 .section-1{
     grid-area: section-1;
-    height: 90vh;
+    height: 100vh;
     width: 100%;
-    /* background-image: url("https://images.pexels.com/photos/1212806/pexels-photo-1212806.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"); */
     background-image: url("https://images.pexels.com/photos/2998480/pexels-photo-2998480.jpeg?cs=srgb&dl=coffee-poured-in-white-cup-2998480.jpg&fm=jpg");
     background-position: 7% 100%;
     background-size: 100% 100%;
@@ -493,5 +492,18 @@ li{
     }
     ul{
         top: 7%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .section-1{
+        grid-area: section-1;
+        height: 80vh;
+        width: 100%;
+        background-image: url("https://images.pexels.com/photos/2998480/pexels-photo-2998480.jpeg?cs=srgb&dl=coffee-poured-in-white-cup-2998480.jpg&fm=jpg");
+        background-position: 7% 100%;
+        background-size: 100% 100%;
+        /* background-size: cover; */
+        background-repeat: no-repeat;
     }
 }
