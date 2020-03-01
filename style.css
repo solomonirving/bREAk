@@ -513,7 +513,7 @@ html {
 @media screen and (max-width: 400px) {
     .section-1{
         grid-area: section-1;
-        height: 80vh;
+        height: 70vh;
         width: 100%;
         background-image: url("https://images.pexels.com/photos/2998480/pexels-photo-2998480.jpeg?cs=srgb&dl=coffee-poured-in-white-cup-2998480.jpg&fm=jpg");
         background-position: 7% 100%;
